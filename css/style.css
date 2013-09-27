@@ -167,7 +167,7 @@ footer {
 		margin: 10px 5px 0 104px;
 	}
 .details {
-	margin: 0 0 10px 200px;
+	margin: 0 0 10px 192px;
 	width: 865px;
 }
 .details-main {
@@ -280,13 +280,13 @@ footer {
 	box-shadow: 0 1px 1px 1px #6c82a6;
 	display: block;
 	width: 167px;
-	height: 206px;
+	height: 180px;
 	background: url('../img/carousel-item-bg2.png') no-repeat;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
 	position: relative;
-	margin: 0 0 10px 0;
+	margin: 0 0 8px 0;
 }
 	.nav-product:hover {
 		background: url('../img/carousel-item-bg2-hover.png') no-repeat;
@@ -313,9 +313,9 @@ footer {
 		color: #2d5390;
 		font-size: 16px;
 		margin: 0 auto;
-		width: 150px;
+		width: 100%;
 		text-align: center;
-		padding: 5px;
+		padding: 0px;
 	}
 	
 	.nav-product h3,
@@ -477,12 +477,12 @@ footer {
 	padding: 30px 30px 60px 30px;
 }
 .sidebar {
-	width: 167px;
+	width: 168px;
 	background: #8ca9d8;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-	padding: 10px 10px;
+	padding: 3px 3px;
 	float: left;
 }
 .slider {
@@ -559,7 +559,7 @@ footer {
 }
 
 .specifications td {
-	padding: 10px;
+	padding: 7px 10px;
 	border: 1px solid #ffffff;
 	width: 50%;
 }
