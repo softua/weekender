@@ -56,7 +56,7 @@
 				<a href="product.php" class="menu-item menu-item-active">Продукция</a>
 				<a href="/" class="menu-item">О компании</a>
 				<a href="/" class="menu-item">Дилеры</a>
-				<a href="contasts.php" class="menu-item">Контакты</a>
+				<a href="contacts.php" class="menu-item">Контакты</a>
 				<a href="/" class="menu-item-helper"></a>
 			</nav>
 		</header>

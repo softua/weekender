@@ -57,7 +57,7 @@
 				<a href="product.php" class="menu-item" >Продукция</a>
 				<a href="/" class="menu-item">О компании</a>
 				<a href="dealers.php" class="menu-item menu-item-active">Дилеры</a>
-				<a href="contasts.php" class="menu-item">Контакты</a>
+				<a href="contacts.php" class="menu-item">Контакты</a>
 				<a href="/" class="menu-item-helper"></a>
 			</nav>
 		</header>
@@ -68,10 +68,9 @@
 				<? foreach ($products as $product): ?>
 				<div class="nav-product">
 					<img src="<?= $product['img_src'] ?>" alt="<?= $product['alt'] ?>"/>
-
-					<h4>Генераторы Weekender, Украина   </h4>
-					<a href="product.php?id=<?= $product['id'] ?>">Подробнее ></a>
-					<div class="fix"></div>
+					<h2><?= $product['name'] ?></h2>
+					<h4>Цена <?= $product['price'] ?></h4>
+					<a href="product.php?id=<?= $product['id'] ?>">П о д р о б н е е</a>
 				</div>
 				<? endforeach; ?>
 				<? endif; ?>
